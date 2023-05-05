@@ -2,7 +2,7 @@
 
 ## Simple Snake game made in Rust.
 
-### How to run:
+### How to run
 
 - ```cargo run``` to run Rust application,
 
@@ -10,11 +10,11 @@
 
 ### Screenshots
 
-<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 1.jpg"/>
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 1.jpg" width=600 height=600/>
 
-<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 2.jpg"/>
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 2.jpg" width=600 height=600/>
 
-<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 3.jpg"/>
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 3.jpg" width=600 height=600/>
 
 ### Credits
 
