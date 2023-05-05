@@ -8,6 +8,14 @@
 
 - ```cargo build``` to build an executable file.
 
+### Screenshots
+
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 1.jpg"/>
+
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 2.jpg"/>
+
+<img src="https://github.com/tukarp/Rust-Snake/blob/main/Images/Image 3.jpg"/>
+
 ### Credits
 
 Made by https://github.com/tukarp
