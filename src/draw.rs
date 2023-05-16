@@ -16,7 +16,7 @@ pub fn to_coordinates_u32(game_coordinates: i32) -> u32 {
 }
 
 // Drawing block
-pub fn draw_block(color: Color, x: i32, y: i32, context: &Context, g: &mut G2d) {
+pub fn draw_block(color: Color, x: i32, y: i32, context: &Context, graphics: &mut G2d) {
     // Graphical user interface
     let gui_x: f64 = to_coordinates(x);
     let gui_y: f64 = to_coordinates(y);
@@ -29,7 +29,7 @@ pub fn draw_block(color: Color, x: i32, y: i32, context: &Context, g: &mut G2d) 
         BLOCK_SIZE,             // Block size width
         BLOCK_SIZE],            // Block size height
         context.transform,      // Context
-        g,                      // Graphics
+        graphics,               // Graphics
     );
 }
 
@@ -41,7 +41,7 @@ pub fn draw_rectangle(
     width: i32,         // Rectangle width
     height: i32,        // Rectangle Height
     context: &Context,  // Context
-    g: &mut G2d,        // Graphics
+    graphics: &mut G2d, // Graphics
 ) {
     // Graphical user interface
     let x: f64 = to_coordinates(x);
@@ -55,6 +55,6 @@ pub fn draw_rectangle(
         BLOCK_SIZE * (width as f64),        // Block size width
         BLOCK_SIZE * (height as f64),],     // Block size height
         context.transform,                  // Context
-        g,                                  // Graphics
+        graphics,                           // Graphics
     );
 }

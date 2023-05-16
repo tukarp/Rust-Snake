@@ -74,24 +74,24 @@ impl Game {
     }
 
     // Drawing contents
-    pub fn draw(&self, context: &Context, g: &mut G2d) {
+    pub fn draw(&self, context: &Context, graphics: &mut G2d) {
         // Drawing snake
-        self.snake.draw(context, g);
+        self.snake.draw(context, graphics);
 
         // If food exists - draw it
         if self.food_exists {
-            draw_block(FOOD_COLOR, self.food_x, self.food_y, context, g);
+            draw_block(FOOD_COLOR, self.food_x, self.food_y, context, graphics);
         }
 
         // Drawing borders
-        draw_rectangle(BORDER_COLOR, 0, 0, self.width, 1, context, g);
-        draw_rectangle(BORDER_COLOR, 0, self.height - 1, self.width, 1, context, g);
-        draw_rectangle(BORDER_COLOR, 0, 0, 1, self.height, context, g);
-        draw_rectangle(BORDER_COLOR, self.width - 1, 0 , 1, self.height, context, g);
+        draw_rectangle(BORDER_COLOR, 0, 0, self.width, 1, context, graphics);
+        draw_rectangle(BORDER_COLOR, 0, self.height - 1, self.width, 1, context, graphics);
+        draw_rectangle(BORDER_COLOR, 0, 0, 1, self.height, context, graphics);
+        draw_rectangle(BORDER_COLOR, self.width - 1, 0 , 1, self.height, context, graphics);
         
         // If game over flag is true - draw with different colors
         if self.game_over {
-            draw_rectangle(GAMEOVER_COLOR, 0, 0, self.width, self.height, context, g);
+            draw_rectangle(GAMEOVER_COLOR, 0, 0, self.width, self.height, context, graphics);
         }
     }
 

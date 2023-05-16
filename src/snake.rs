@@ -74,11 +74,11 @@ impl Snake {
     }
 
     // Draw snake function
-    pub fn draw(&self, con: &Context, g: &mut G2d) {
+    pub fn draw(&self, context: &Context, graphics: &mut G2d) {
         // For every block in body
         for block in &self.body {
             // Draw block body based on its coordinates
-            draw_block(SNAKE_COLOR, block.x, block.y, con, g);
+            draw_block(SNAKE_COLOR, block.x, block.y, context, graphics);
         }
     }
 
