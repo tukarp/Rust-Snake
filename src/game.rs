@@ -195,20 +195,6 @@ impl Game {
         self.waiting_time = 0.0;
     }
 
-    // Unfinished score handling
-/*
-    fn update_score(&mut self) {
-        self.score += 1;
-        self.draw_score()
-    }
-
-    fn draw_score(&mut self) {
-        text::Text::new_color([0.0, 0.0, 0.0, 1.0], 32).draw(
-            &self.score.to_string(),
-        );
-    }
-*/
-
     // Setting values to starting ones
     fn restart(&mut self) {
         self.snake = Snake::new(2, 2);      // Snake with his starting position
