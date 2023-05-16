@@ -18,7 +18,7 @@
 
 ### Credits
 
-Made by https://github.com/tukarp
+Made by ```https://github.com/tukarp```
 
 Based on ```Tensor Programming```'s Rust tutorial.
 
