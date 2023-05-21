@@ -4,9 +4,9 @@
 
 ### How to run
 
-- ```cargo run``` to run Rust application,
+- ```cargo run``` to run Rust application
 
-- ```cargo build``` to build an executable file.
+- ```cargo build``` to build an executable file
 
 ### Screenshots
 
@@ -20,10 +20,4 @@
 
 Made by ```https://github.com/tukarp```
 
-Based on ```Tensor Programming```'s Rust tutorial.
-
-```Tensor Programming```
-
-- Youtube ```https://www.youtube.com/@TensorProgramming```
-
-- Github &nbsp; ```https://github.com/tensor-programming```
+Based on [```Tensor Programming```](https://www.youtube.com/@TensorProgramming)'s Rust tutorial.
